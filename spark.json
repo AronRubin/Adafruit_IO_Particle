@@ -1,0 +1,7 @@
+{
+  "name": "Adafruit_IO_Particle",
+  "author": "Adafruit <info@adafruit.com>",
+  "license": "MIT",
+  "version": "1.0.1",
+  "description": "Particle library to access the Adafruit IO REST API."
+}

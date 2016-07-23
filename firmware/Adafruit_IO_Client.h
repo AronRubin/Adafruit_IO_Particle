@@ -23,8 +23,8 @@
 #ifndef ADAFRUIT_IO_CLIENT_H
 #define ADAFRUIT_IO_CLIENT_H
 
-#include "Client.h"
-#include "Adafruit_IO_Arduino.h"
+#include "spark_wiring_client.h"
+#include "Adafruit_IO_Particle.h"
 
 
 // Arduino Client class implementation of AIO REST service.  Good for using with
@@ -46,7 +46,7 @@ public:
 
     bool begin() {}  // Nothing to do, no initialization required.
 
-    virtual bool send(const char* feed, const char* value, const char* key, 
+    virtual bool send(const char* feed, const char* value, const char* key,
                       bool quoted);
 
     virtual FeedData receive(const char* feed, const char* key);

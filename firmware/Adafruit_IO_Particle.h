@@ -23,7 +23,7 @@
 #ifndef ADAFRUIT_IO_PARTICLE_H
 #define ADAFRUIT_IO_PARTICLE_H
 
-#include "application.h"
+#include <application.h>
 
 // Control how big the buffer is for storing a data instance's value.
 // Keep at least a value of ~41 to store large numeric and float values.

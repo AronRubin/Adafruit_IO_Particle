@@ -38,8 +38,8 @@
 
 // Macros for debug output (only enabled when debug mode is enabled.)
 #ifdef ADAFRUIT_IO_DEBUG
-    #define DEBUG_PRINT(...) { Particle.publish( "DEBUG", String::format(__VA_ARGS__); }
-    #define DEBUG_PRINTLN(...) { Particle.publish( "DEBUG", String::format(__VA_ARGS__); }
+    #define DEBUG_PRINT(...) { Particle.publish( "DEBUG", String::format(__VA_ARGS__) ); }
+    #define DEBUG_PRINTLN(...) { Particle.publish( "DEBUG", String::format(__VA_ARGS__) ); }
 #else
     #define DEBUG_PRINT(...) {}
     #define DEBUG_PRINTLN(...) {}

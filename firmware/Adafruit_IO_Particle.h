@@ -27,7 +27,7 @@
 
 // Control how big the buffer is for storing a data instance's value.
 // Keep at least a value of ~41 to store large numeric and float values.
-#define FEEDDATA_LENGTH 41
+#define FEEDDATA_LENGTH 1000
 
 // How large the received data buffer is in bytes.  This is used for reading
 // the response of HTTP requests like header names and response codes.
